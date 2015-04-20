@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Viands</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<link href="css/common.css" rel="stylesheet" type="text/css">
+	<link href="css/style7.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<script src="js/wow.min.js"></script>
+<script>
+$("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
+$("html, body").delay(2000).animate({scrollTop: $('#about')
+</script>
+</head>
+<body>
+	<div class="header" id="home">
+		
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            	<span class="sr-only">Toggle navigation</span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		          	</button>
+					<a class="navbar-brand" href="#">
+						<img alt="Logo" height="45px" src="img/viands-logo.png">
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+			            <li><a href="#home">Home</a></li>
+			            <li><a href="#about">About</a></li>
+		         	    <li><a href="#contact">Contact<span class="sr-only">(current)</span></a></li>
+			         </ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container container-brand">
+			<div  class="row">
+				<div class="col-md-4">
+					<img src="img/mobile.png" class="img-responsive" style="width:90%;">
+				</div>
+				<div class="col-md-8">
+					<img src="img/viands-full.png" class="img-responsive" style="width:25%;"><br><br>
+					<h3 class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s"> Android app that will digitalise your food court experience!</h3>
+					<br><br>
+					 <a href="https://play.google.com/store/apps/details?id=com.one100solutions.viands"><img src="img/play.png" style="width:200px"></a> 
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="about"></div>
+	<div class="container">
+		<a name="about"></a>
+		<h1 class="h1 animated slideInLeft"> ABOUT </h1>
+		<div class="about-info" id="about">
+			<ul class="ch-grid">
+				<li>
+					<div class="ch-item">				
+						<div class="ch-info">
+							<div class="ch-info-front ch-img-1">
+								<h3>Why use Viands?</h3>
+							</div>
+							<div class="ch-info-back">
+								<h4>Are you spending half of your break-time waiting for food?Is the queue just too long? Well, we have a solution!</h4>
+								</div>	
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ch-item">
+						<div class="ch-info">
+							<div class="ch-info-front ch-img-2">
+								<h3>What is Viands?</h3>
+							</div>
+							<div class="ch-info-back">
+								<h4>Viands is an android application that enables you to facilitate food ordering and order collection.Just sign up with us (it's free, ofcourse!) and enjoy RV's FoodCourt better!</h4>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<!--<div class="btn-container text-center">
+			<a type="button" class="btn btn-lg btn-primary btn-dl" href="https://play.google.com/store/apps/details?id=com.one100solutions.viands">Download</a>
+		</div>-->
+
+	</div>
+
+	<footer id="contact">
+		<div class="container" id="#contact">
+			<h1 class="h1 white wow slideInLeft">CONTACT</h1>
+
+			<div class="row">
+				<div class="col-md-6" style="text-align:center;">
+			<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sanchay Raj,</p>
+			<p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> +919986787295</p>
+			<p><span class="glyphicon glyphicon-send" aria-hidden="true"></span> sanchay.pba@gmail.com</p>
+			</div>
+			<div class="col-md-6" style="text-align:center;">
+			<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Siddharth,</p>
+			<p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> +919482532445</p>
+			<p><span class="glyphicon glyphicon-send" aria-hidden="true"></span> b.s.sid94@gmail.com</p>
+		</div>
+			<div class="row">
+				<div class="col-md-6" align="center">
+					<p style="font-size:20px;font-weight:bold;padding-top:30px;">In Association with,</p>
+			<img alt="Logo" height="225px" src="img/ogara_campus_cafe.png">
+		</div>
+		<div class="col-md-6" align="center">
+		<p style="font-size:20px;font-weight:bold;padding-top:30px;">Powered by,</p>
+		<img alt="Logo" height="225px" src="img/one100solutions_logo.png">
+		</div>
+	</div>
+	</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 300, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+</script>
+</body>
+</html>
