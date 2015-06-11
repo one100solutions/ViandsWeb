@@ -361,9 +361,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    border-color: ;
+    color: #fff;
+    background-color: #F7772A;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -416,7 +416,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -429,8 +429,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    color: #ed431f;
+    background-color: #f2f2f2;
 }
 
 .btn-primary:active,
@@ -467,11 +467,24 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    background-color: ;
+    border: 1.5px solid #F7772A;
+    border-radius: 20;
+        
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+}
+
+.btn1{
+    background-color: ;
+    border: 1.5px solid #F07444;
+    border-radius: 20;
+        
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+
 }
 
 .btn-xl {
