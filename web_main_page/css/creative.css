@@ -48,12 +48,13 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
 .bg-primary {
     background-color: #f05f40;
+	font-size:18px;
 }
 
 .bg-dark {
@@ -62,10 +63,13 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
-	font-size:25px;
+    color: rgba(255,255,255,1);
+	font-size:20px;
 }
-
+.text-faded1 {
+    color: rgba(255,255,255,.5);
+	font-size:18;
+}
 section {
     padding: 100px 0;
 }
@@ -564,4 +568,5 @@ section.inblack h2{
   position: relative;
   top: 30px;
   left: 10px;
+  font-size:18;
 }
