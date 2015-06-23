@@ -43,13 +43,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Uni Sans Thin;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
+	font-family:SIMPLIFICA Typeface;
 }
 
 .bg-primary {
@@ -63,11 +64,12 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,1);
+    color: #fff;
 	font-size:20px;
+	font-family:SIMPLIFICA Typeface;
 }
 .text-faded1 {
-    color: rgba(255,255,255,.5);
+    color: rgba(255,255,255,1);
 	font-size:18;
 }
 section {
@@ -549,7 +551,7 @@ body {
 	display: block;
 }
 .inblack{
-	background-color:#000000;
+	background-color:#424242;
 }
 .inwhite{
 	background-color:#FFFFFF;
