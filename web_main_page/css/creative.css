@@ -154,27 +154,27 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: black;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #fff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #fff;
     }
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #fff;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #fff;
     }
 }
 .fullscreen-bg__video {
@@ -541,7 +541,7 @@ body {
     padding-top: 10px;
 }
 .imgbutton{
-	background: url(../img/playstore.jpg) no-repeat 6px center;
+	background: url(../img/playstore.png) no-repeat 6px center;
 	
 	
 	width: 240px;
